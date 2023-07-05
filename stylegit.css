@@ -1,0 +1,60 @@
+<style> 
+body
+ { 
+ background-image: url('https://media4.giphy.com/media/gFhZjOtzoutSvckWPM/giphy.gif');
+ background-image:url("C:\20NN1A1257\edunet project\leone-venter-VieM9BdZKFo-unsplash.jpg");
+ background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-image: cover;
+   height: 100vh;
+ } 
+ ul { 
+    list-style-type: none;
+     margin: 0;
+      padding: 0;
+       overflow: hidden;
+     }
+li a {
+    display: block;
+    padding: 15px;
+    background-color:thistle;
+}
+
+li {
+    float: right;
+    font-size: 30px;
+    color: blue;
+}
+
+img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75%;
+    display: block;
+}
+
+.card {
+    height: 140px;
+    width: 220px;
+    border-radius: 20px;
+    display:block;
+    padding: 5px;
+    background-color: rgb(240, 228, 228);
+    text-align: center;
+
+}
+
+.bg-container{
+    background-image:url("https://res.cloudinary.com/dlovqnrza/image/upload/v1688559429/Portfolio_Background_uu1y54.jpg");
+    background-size:cover;
+    min-height:100px;
+}
+.profile{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+
+
+}
