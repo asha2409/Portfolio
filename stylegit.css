@@ -15,16 +15,26 @@ body
       padding: 0;
        overflow: hidden;
      }
-li a {
+li a{
+    display: block;
+    padding: 15px;
+    background-color: bisque;
+}
+.navbar ul a:hover {
     display: block;
     padding: 15px;
     background-color:thistle;
 }
+.navbar input{
+    border-radius: 14px;
+    padding: 3px 17px;
+    width:129px;
+}
 
-li {
+.navbar {
     float: right;
     font-size: 30px;
-    color: blue;
+    
 }
 
 img {
@@ -57,4 +67,31 @@ img {
     border-radius:100px;
 
 
+}
+.header .navbar{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 25rem;
+    background-color: var(--white);
+    height: 80vh;
+}
+.header .navbar.active{
+    right: 0;
+}
+.header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: black;
+    marcdgin: 1.5rem;
+}
+
+
+.nav-container{
+    display:flex;
+    flex-direction:row;
+}
+.main-nav-container{
+    display: flex;
+    justify-content: space-evenly;
 }
